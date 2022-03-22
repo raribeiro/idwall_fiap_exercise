@@ -122,6 +122,51 @@ a.btn-toggle:hover {
   margin: 0;
 }
 
+.container-tabs {
+  margin-top: 5em;
+}
+
+.border-bottom {
+  margin-bottom: 5em;
+  border-bottom: 3px solid #b8b8b8;
+  cursor: pointer;
+}
+
+.border-bottom-selected {
+  border-bottom: 3px solid #597ef7 !important;
+}
+
+.unselected-text {
+  color: #b8b8b8;
+}
+
+.shadow {
+  box-shadow: 1px 1px 1px #000;
+}
+
+.shadow-box{
+  padding: 3em;
+  margin-bottom: 2em;
+}
+
+.shadow-data{
+  padding: 1em;
+}
+
+.shadow-data p{
+  margin: 0;
+  padding: 0 1em;
+}
+
+.space-row {
+  margin-bottom: 2em;
+}
+
+.border-top {
+  border-top: 3px solid #597ef7 !important;
+}
+
+
 @media (max-width: 768px) {
   #sidebar {
       margin-left: -250px;
